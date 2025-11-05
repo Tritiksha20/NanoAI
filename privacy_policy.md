@@ -1,0 +1,1 @@
+User data is stored securely, retained for 1 year, no PHI in seed data.

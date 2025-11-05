@@ -1,0 +1,19 @@
+:root {
+  --bg: #ffffff;
+  --text: #0b1220;
+  --primary: #00bf63;
+  --accent: #2998e4;
+  --muted: #6b7280;
+}
+
+[data-theme="dark"] {
+  --bg: #0b1220;
+  --text: #e6eef8;
+  --muted: #9aa6b2;
+}
+
+body { background: var(--bg); color: var(--text); font-family: Inter, sans-serif; }
+.hero { text-align: center; padding: 2rem; }
+.services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+.cta { background: var(--primary); color: white; padding: 0.5rem 1rem; text-decoration: none; }
+#theme-toggle { position: absolute; top: 1rem; right: 1rem; }
